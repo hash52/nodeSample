@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from "react";
-import { Thread } from "./types/thread";
+import { Thread } from "../types/thread";
 
-export const Threads: FC = () => {
+export const ThreadList: FC = () => {
   const [threads, setThreads] = useState<Thread[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);

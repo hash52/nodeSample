@@ -1,8 +1,13 @@
-import "./App.css";
-import { Threads } from "./Threads";
+import ThreadForm from "./thread/ThreadForm";
+import { ThreadList } from "./thread/ThreadList";
 
 function App() {
-  return <Threads />;
+  return (
+  <>
+    <ThreadList />
+    <ThreadForm />
+  </>
+);
 }
 
 export default App;
