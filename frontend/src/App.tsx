@@ -3,11 +3,11 @@ import { ThreadList } from "./thread/ThreadList";
 
 function App() {
   return (
-  <>
-    <ThreadList />
-    <ThreadForm />
-  </>
-);
+    <>
+      <ThreadList />
+      <ThreadForm />
+    </>
+  );
 }
 
 export default App;
